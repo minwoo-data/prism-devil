@@ -5,6 +5,11 @@ All notable changes to the Prism-Devil plugin are documented here.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Versioning follows [Semantic Versioning](https://semver.org/).
 
+## [Retired] - 2026-10-13
+
+Absorbed into [prism](https://github.com/minwoo-data/prism) 0.3.0 as `/prism <target> --redteam`.
+No further releases; repository archived.
+
 ## [0.1.0] — 2026-04-20
 
 Initial public release. Evolved from an earlier `review-devil` skill that was a

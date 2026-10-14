@@ -117,7 +117,7 @@ If no checklist was loaded, drop the `checklist:` segment.
 
 - Single agent, single pass. No verification — this tool is deliberately skeptical, and verifying every finding defeats the purpose.
 - If you disagree with the agent, say so in your own response — do not edit the agent's report.
-- This skill is allowed to cry wolf. Pair with `/prism --verify` when you want signal over noise.
+- This skill is allowed to cry wolf. Pair with `/prism` (default mode runs the Evidence pass) when you want signal over noise.
 - Security-sensitive targets preferred: authentication, authorization, data mutations, external input parsers, anything touching money/PII/credentials. Non-security code works too but expect lower signal.
 
 ## When to use which
@@ -128,5 +128,5 @@ If no checklist was loaded, drop the `checklist:` segment.
 | Broad review, high-stakes decision | `/prism <target>` (default verify) |
 | You know you're too close to the code | `/prism <target> --adversarial` |
 | Security-sensitive path, need attacker mindset | **`/prism-devil <target>`** |
-| Pre-production gate on auth/payment/PII code | **`/prism-devil`** then `/prism --verify` |
+| Pre-production gate on auth/payment/PII code | **`/prism-devil`** then `/prism` |
 | Quick sanity check, speed > depth | `/prism <target> --quick` |

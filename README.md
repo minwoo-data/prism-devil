@@ -1,5 +1,12 @@
 # Prism-Devil — Aggressive Adversarial Probe
 
+> ## ⚠️ Retired — absorbed into prism 0.3.0
+>
+> This plugin is no longer maintained. Everything it did now lives in **[prism](https://github.com/minwoo-data/prism)** as `/prism <target> --redteam`:
+> the hostile attacker-mindset lens, the project security-checklist auto-load and cross-reference, the strict severity rubric and the attack-chain section — with one upgrade: Red Team findings now go through prism's Evidence pass and machine quote-check instead of shipping unverified.
+>
+> Install `prism` from the `haroom_plugins` marketplace and run `/prism src/services/auth.py --redteam`. This repository is archived for history.
+
 **Language**: **English** · [한국어](README.ko.md)
 
 > `prism` looks from 5 angles. `prism-devil` puts on the black hat and tries to break it.
@@ -16,7 +23,7 @@ Critically, it **auto-loads your project's security checklist** if one exists (`
 
 - Code touching auth, payments, PII, credentials, or anything money-adjacent
 - File parsers handling untrusted input (xlsx, pdf, image, EML)
-- Pre-production gates — pair with `/prism --verify` afterward
+- Pre-production gates — pair with `/prism` afterward
 - Whenever you suspect you're too close to your own code to see the holes
 - Periodic security audit on infrastructure code
 

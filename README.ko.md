@@ -1,5 +1,12 @@
 # Prism-Devil — 공격적 적대 검증
 
+> ## ⚠️ 종료 — prism 0.3.0에 흡수됨
+>
+> 이 플러그인은 더 이상 유지보수하지 않습니다. 기능 전부가 **[prism](https://github.com/minwoo-data/prism)**의 `/prism <target> --redteam`으로 옮겨갔습니다:
+> 공격자 마인드 렌즈, 프로젝트 보안 체크리스트 자동 로드·교차 참조, 엄격한 severity 기준, 공격 체인 섹션. 한 가지 개선 — Red Team finding도 이제 prism의 Evidence pass와 기계 인용 검증을 거칩니다.
+>
+> `haroom_plugins` 마켓플레이스에서 `prism`을 설치하고 `/prism src/services/auth.py --redteam`을 실행하세요. 이 저장소는 기록용으로 archive됩니다.
+
 **Language**: [English](README.md) · **한국어**
 
 > `prism`은 5각도로 둘러본다. `prism-devil`은 검은 모자 쓰고 부수려고 든다.
